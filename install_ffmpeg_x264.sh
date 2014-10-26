@@ -1,5 +1,10 @@
 #!/bin/bash
 
+## FFmpeg installation from git sources for Ubuntu
+##
+## Based on the guide at https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu
+##
+
 echo "Server/headless (s) or Desktop (d) installation [s/d (default d)]?"
 read answer
 if [[ "$answer" == "d" || "$answer" == "D" || "$answer" == "" ]]; then
