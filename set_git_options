@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git config --global alias.lg "log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr %an)%Creset' --abbrev-commit --date=relative"
+git config --global color.ui auto
+git config --global core.editor "vim"
+
+git config --global user.name "digix@$HOSTNAME"
+git config --global user.email "digix84@gmail.com"

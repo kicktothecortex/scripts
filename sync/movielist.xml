@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+
+    <movie>
+        <title>Jackass Presents: Bad Grandpa</title>
+        <year>2013</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Gravity</title>
+        <year>2013</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>The Sum of All Fears</title>
+        <year>2002</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>The Hobbit: The Desolation of Smaug</title>
+        <year>2013</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Indiana Jones and the Kingdom of the Crystal Skull</title>
+        <year>2008</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Riddick</title>
+        <year>2013</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Scott Pilgrim vs. the World</title>
+        <year>2010</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Lethal Weapon</title>
+        <year>1987</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>National Treasure</title>
+        <year>2004</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Walk Hard: The Dewey Cox Story</title>
+        <year>2007</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Lethal Weapon 3</title>
+        <year>1992</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>National Treasure: Book of Secrets</title>
+        <year>2007</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Rush Hour</title>
+        <year>1998</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Ice Age</title>
+        <year>2002</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Lethal Weapon 2</title>
+        <year>1989</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Ice Age: Dawn of the Dinosaurs</title>
+        <year>2009</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>The Naked Gun 33⅓: The Final Insult</title>
+        <year>1994</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>The Naked Gun: From the Files of Police Squad!</title>
+        <year>1988</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Ice Age: Continental Drift</title>
+        <year>2012</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Lethal Weapon 4</title>
+        <year>1998</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Rush Hour 2</title>
+        <year>2001</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Rush Hour 3</title>
+        <year>2007</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>The Naked Gun 2½: The Smell of Fear</title>
+        <year>1991</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Ice Age: The Meltdown</title>
+        <year>2006</year>
+        <added>2014-01-11</added>
+    </movie>
+
+    <movie>
+        <title>Byzantium</title>
+        <year>2013</year>
+        <added>2013-12-08</added>
+    </movie>
+
+    <movie>
+        <title>Elysium</title>
+        <year>2013</year>
+        <added>2013-12-08</added>
+    </movie>
+
+    <movie>
+        <title>The Ring</title>
+        <year>2002</year>
+        <added>2013-12-08</added>
+    </movie>
+
+    <movie>
+        <title>Paranoia</title>
+        <year>2013</year>
+        <added>2013-12-08</added>
+    </movie>
+
+    <movie>
+        <title>The Ring Two</title>
+        <year>2005</year>
+        <added>2013-12-08</added>
+    </movie>
+
+    <movie>
+        <title>2 Guns</title>
+        <year>2013</year>
+        <added>2013-12-08</added>
+    </movie>
+
+    <movie>
+        <title>RED 2</title>
+        <year>2013</year>
+        <added>2013-11-19</added>
+    </movie>
+
+    <movie>
+        <title>Ocean Predators</title>
+        <year>2013</year>
+        <added>2013-11-19</added>
+    </movie>
+
+    <movie>
+        <title>The Starving Games</title>
+        <year>2013</year>
+        <added>2013-11-19</added>
+    </movie>
+
+    <movie>
+        <title>Monsters University</title>
+        <year>2013</year>
+        <added>2013-11-19</added>
+    </movie>
+
+    <movie>
+        <title>Our Universe</title>
+        <year>2013</year>
+        <added>2013-11-19</added>
+    </movie>
+
+    <movie>
+        <title>The World&apos;s End</title>
+        <year>2013</year>
+        <added>2013-11-19</added>
+    </movie>
+
+    <movie>
+        <title>The Wolverine</title>
+        <year>2013</year>
+        <added>2013-11-08</added>
+    </movie>
+
+    <movie>
+        <title>Unbreakable</title>
+        <year>2000</year>
+        <added>2013-11-04</added>
+    </movie>
+
+    <movie>
+        <title>InAPPropriate Comedy</title>
+        <year>2013</year>
+        <added>2013-11-04</added>
+    </movie>
+
+    <movie>
+        <title>The Sixth Sense</title>
+        <year>1999</year>
+        <added>2013-11-02</added>
+    </movie>
+
+    <movie>
+        <title>Underworld: Evolution</title>
+        <year>2006</year>
+        <added>2013-11-02</added>
+    </movie>
+
+    <movie>
+        <title>Cold Creek Manor</title>
+        <year>2003</year>
+        <added>2013-10-26</added>
+    </movie>
+
+    <movie>
+        <title>The Last Airbender</title>
+        <year>2010</year>
+        <added>2013-10-25</added>
+    </movie>
+
+    <movie>
+        <title>Hammer of the Gods</title>
+        <year>2013</year>
+        <added>2013-10-06</added>
+    </movie>
+
+    <movie>
+        <title>Pacific Rim</title>
+        <year>2013</year>
+        <added>2013-10-06</added>
+    </movie>
+
+    <movie>
+        <title>Ink</title>
+        <year>2009</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>TRON: Legacy</title>
+        <year>2010</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Robin Williams: A Night at the Met</title>
+        <year>1986</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Ricky Gervais Live 4: Science</title>
+        <year>2010</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Ip Man</title>
+        <year>2008</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>God Bless America</title>
+        <year>2011</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>George Carlin: You Are All Diseased</title>
+        <year>1999</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>George Carlin: It&apos;s Bad for Ya!</title>
+        <year>2008</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Gumball 3000: The Movie</title>
+        <year>2003</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Eddie Izzard: Glorious</title>
+        <year>1997</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Ravenous</title>
+        <year>1999</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Eddie Izzard: Dress to Kill</title>
+        <year>1999</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Eddie Izzard: Circle</title>
+        <year>2002</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Dungeons &amp; Dragons: The Book of Vile Darkness</title>
+        <year>2012</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Dogtooth</title>
+        <year>2009</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Tekken - Blood Vengeance</title>
+        <year>2011</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Tekken</title>
+        <year>2010</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Side Effects</title>
+        <year>2013</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Super</title>
+        <year>2010</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>The Princess Bride</title>
+        <year>1987</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Trainspotting</title>
+        <year>1996</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Jack Reacher</title>
+        <year>2012</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Red Riding Hood</title>
+        <year>2011</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>The Sorcerer and the White Snake</title>
+        <year>2011</year>
+        <added>2013-09-22</added>
+    </movie>
+
+    <movie>
+        <title>Grave of the Fireflies</title>
+        <year>1988</year>
+        <added>2013-09-22</added>
+    </movie>
+
+<movies>

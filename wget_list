@@ -1,0 +1,11 @@
+#!/bin/sh
+# wget-list: manage the list of downloaded files
+
+# invoke wget-list without arguments
+
+while [ `find to_download -size +0` ]
+ do
+  url=`head -n1 to_download`
+   wget -c $url
+   sed -si 1d .wget-list
+ done
