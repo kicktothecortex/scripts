@@ -1,16 +1,5 @@
 #!/usr/bin/env python2
 
-print('=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+')
-print(' _______  _______  _______  _______  _______  _______    _______  _______  _                 _______  _______  _______ _________ _______  _       ')
-print('(  ____ \(  ____ \(       )(  ____ )(  ____ \(  ____ \  (  ____ \(  ___  )( (    /||\     /|(  ____ \(  ____ )(  ____ \\__   __/(  ___  )( (    /|')
-print('| (    \/| (    \/| () () || (    )|| (    \/| (    \/  | (    \/| (   ) ||  \  ( || )   ( || (    \/| (    )|| (    \/   ) (   | (   ) ||  \  ( |')
-print('| (__    | (__    | || || || (____)|| (__    | |        | |      | |   | ||   \ | || |   | || (__    | (____)|| (_____    | |   | |   | ||   \ | |')
-print('|  __)   |  __)   | |(_)| ||  _____)|  __)   | | ____   | |      | |   | || (\ \) |( (   ) )|  __)   |     __)(_____  )   | |   | |   | || (\ \) |')
-print('| (      | (      | |   | || (      | (      | | \_  )  | |      | |   | || | \   | \ \_/ / | (      | (\ (         ) |   | |   | |   | || | \   |')
-print('| )      | )      | )   ( || )      | (____/\| (___) |  | (____/\| (___) || )  \  |  \   /  | (____/\| ) \ \__/\____) |___) (___| (___) || )  \  |')
-print('|/       |/       |/     \||/       (_______/(_______)  (_______/(_______)|/    )_)   \_/   (_______/|/   \__/\_______)\_______/(_______)|/    )_)')
-print('=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+')
-
 import os,sys,subprocess,signal,shutil,argparse,json,select,pexpect,collections
 from progressbar import Bar,ETA,Percentage,ProgressBar
 
@@ -48,10 +37,10 @@ class FFsettings(object):
 	preset_med = 'slow'
 	preset_high = 'slow'
 	preset_ultra = 'slower'
-	rate_low = '1M'
-	rate_med = '1500k'
-	rate_high = '2M'
-	rate_ultra = '4M'
+	rate_low = '850k'
+	rate_med = '1400k'
+	rate_high = '2400k'
+	rate_ultra = '4200k'
 	vtype = 'normal'
 	maxres = None
 	lowqual = force_aac = force_subs = 0
@@ -69,10 +58,10 @@ class FFsettings(object):
 		# set basics based on args
 		if args.vtype is not None:
 			if args.vtype=='cartoon' or args.vtype=='anime':
-				self.rate_low = '500k'
-				self.rate_med = '750k'
-				self.rate_high = '1500k'
-				self.rate_ultra = '2500k'
+				self.rate_low = '600k'
+				self.rate_med = '1200k'
+				self.rate_high = '2000k'
+				self.rate_ultra = '3500k'
 				self.vtype = args.vtype
 		if args.preset is not None:
 			self.preset_low = self.preset_med = self.preset_high = args.preset
@@ -255,7 +244,7 @@ def encode(infile,outfile,opts,threads,logdir):
 			thread.close
 
 # TODO Look into a better video detection method than just file extension
-_ext_list = '.3gp','.asf','.avchd','.avi','.f4v','.flv','.m1v','.m2v','.m4v','.mkv','.mov','.mpg','.mpeg','.mpe','.mp4','.ogg','.rm','.ts','.webm','.wmv'
+_ext_list = '.3gp','.asf','.avchd','.avi','.f4v','.flv','.m1v','.m2v','.m4v','.mkv','.mov','.mpg','.mpeg','.mpe','.mp4','.ogg','.rm','.ts','.webm','.wmv','.rv'
 _presets = ['ultrafast','superfast','veryfast','faster','fast','medium','slow','slower','veryslow','placebo']
 _res = ['low','medium','high','ultra']
 _vtypes = ['normal','cartoon','anime']
