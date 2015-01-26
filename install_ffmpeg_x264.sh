@@ -56,9 +56,9 @@ if [[ "$INSTYPE" == "new" ]]; then
         	if [[ -d "yasm" ]]; then
 			rm -rfv yasm
 	        fi
-		wget http://www.tortall.net/projects/yasm/releases/yasm-1.2.0.tar.gz
-		tar xzvf yasm-1.2.0.tar.gz
-		cd yasm-1.2.0
+		wget http://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz
+		tar xzvf yasm-1.3.0.tar.gz
+		cd yasm-1.3.0
 		./configure --prefix="$CONFDIR" --bindir="$HOME/bin"
 		make
 		make install
@@ -133,7 +133,7 @@ if [[ "$INSTYPE" == "new" ]]; then
 		if [[ -d "libvpx" ]]; then
                 	rm -rfv libvpx
 	        fi
-		git clone --depth 1 http://git.chromium.org/webm/libvpx.git
+		git clone http://git.chromium.org/webm/libvpx.git
 		cd libvpx
 		./configure --prefix="$CONFDIR" --disable-examples
 		make
